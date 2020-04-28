@@ -51,11 +51,10 @@ label {
 }
 
 @media (max-width: 1140px) {
-
-#header{
+  #header {
     padding: 0rem 1rem;
     height: 4rem;
-}
+  }
   label {
     display: block;
     font-weight: 300;
@@ -65,11 +64,11 @@ label {
     transition: all 0.5s;
   }
 
-  #header-img{
-      height: 3rem;
+  #header-img {
+    height: 3rem;
   }
 
-  #nav-bar{
+  #nav-bar {
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -81,25 +80,21 @@ label {
     right: 100vh;
     padding-top: 2rem;
     padding-bottom: 15rem;
-    transition: all .5s;
+    transition: all 0.5s;
   }
 
-  .nav-link{
-      display: block;
-      text-align: center;
-      margin-bottom: auto;
-      margin-top: auto;
+  .nav-link {
+    display: block;
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: auto;
   }
 
   input:checked ~ #nav-bar {
-      right: 0;
+    right: 0vh;
   }
 
   input:checked ~ label {
     transform: rotate(180deg);
+  }
 }
-   
-}
-  
-
-} 
