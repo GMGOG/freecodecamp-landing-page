@@ -61,7 +61,7 @@ label {
     color: white;
     font-size: 2rem;
     margin-left: auto;
-    transition: all 0.5s;
+    transition: all 0.4s;
   }
 
   #header-img {
@@ -76,11 +76,11 @@ label {
     top: 4rem;
     background-color: black;
     height: 100vh;
-    width: 100vw;
-    right: 100vh;
+    width: 100%;
+    right: 100%;
     padding-top: 2rem;
     padding-bottom: 15rem;
-    transition: all 0.5s;
+    transition: all 0.4s;
   }
 
   .nav-link {
@@ -91,7 +91,7 @@ label {
   }
 
   input:checked ~ #nav-bar {
-    right: 0vh;
+    right: 0;
   }
 
   input:checked ~ label {
