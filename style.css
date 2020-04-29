@@ -93,20 +93,12 @@ input[type="checkbox" i] {
     font-size: large;
 }
 
-.login, .join{
+.join{
     text-decoration: none;
     color: aliceblue;
     font-size: 1.5rem;
     margin-top: auto;
     margin-bottom: auto;
-}
-
-.login{
-  margin-left: 2rem;
-}
-
-.login:hover{
-    color: orange;
 }
 
 .join:hover{
@@ -127,11 +119,6 @@ form{
   align-content: center;
   margin-top: auto;
   margin-bottom: auto;
-}
-.email{
-  text-decoration: none;
-  color: aliceblue;
-  font-size: 1.5rem;
 }
 
 #form{
@@ -223,5 +210,40 @@ button i:hover{
 
   input:checked ~ label {
     transform: rotate(180deg);
+  }
+
+  #cs{
+    margin-top: 0;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #cs p{
+    text-align: left;
+    margin-top: 50%;
+    width: 70%;
+    font-size: 0.9rem;
+  }
+
+  #cs p span{
+    font-size: 2rem;
+  }
+
+  .button{
+    border: none;
+    padding-left: 0;
+  }
+  .join{
+    font-size: 1rem;
+  }
+  
+  #form{
+    width: 100%;
+    margin-left: 1rem;
+  }
+
+  #form::placeholder{
+    font-size: 0.8rem;
   }
 }
