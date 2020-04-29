@@ -6,6 +6,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  color: whitesmoke;
 }
 
 #header {
@@ -34,10 +35,7 @@ input[type="checkbox" i] {
   display: none;
 }
 
-input:checked {
-  background-color: aqua;
-}
-label {
+#arrow {
   display: none;
 }
 
@@ -83,39 +81,108 @@ label {
     margin-bottom: 1rem;
 }
 
-#button{
-    display: flex;
-    justify-content: space-between;
+.button{
+    display: inline-flex;
+    justify-content: left;
+    align-content: center;
     border-radius: 20px;
     padding: 0.5rem 1.5rem;
     border: 0.11rem solid orange;
     margin-top: 2rem;
-    margin-left: 6rem;
-    color: rgb(202, 163, 54);
-    width: 15%;
+    margin-right: auto;
+    font-size: large;
 }
 
-#login, #join{
+.login, .join{
     text-decoration: none;
     color: aliceblue;
     font-size: 1.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-#login:hover{
+.login{
+  margin-left: 2rem;
+}
+
+.login:hover{
     color: orange;
 }
 
-#join:hover{
+.join:hover{
     color: orange;
 } 
 
+input[type = "checkbox"]{
+  display: none;
+}
+
+input[type = "checkbox"]:checked + form{
+  display: flex;
+}
+
+form{
+  display: none;
+  position: relative;
+  align-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.email{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+
+#form{
+  display: inline-block;
+  width: 28rem;
+  margin: 0;
+  outline: none;
+  height: 1.8rem;
+  background: transparent;
+  border-radius: 0;
+  border: none;
+}
+
+#form::placeholder{
+  color: aliceblue;
+  font-size: 1rem;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: none;
+  -webkit-text-fill-color: whitesmoke;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+button{
+  background: transparent;
+  border: none;
+  font-size: large;
+  outline: none;
+}
+
+button i:hover{
+  color: orange;
+  transform: scale(1.2);
+}
 
 @media (max-width: 1140px) {
   #header {
     padding: 0rem 1rem;
     height: 4rem;
   }
-  label {
+  #arrow{
     display: block;
     font-weight: 300;
     color: white;
