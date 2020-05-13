@@ -51,13 +51,35 @@ input[type="checkbox" i] {
   color: rgb(243, 187, 84);
 }
 
+#bg-1{
+  background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(./res/background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+section{
+  background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(./res/background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-left: 3rem;
+}
+
+section img{
+  padding-left: 6rem;
+  padding-bottom: 1.5rem;
+}
+
+
+iframe{
+  border: 2px beige solid;
+}
+
 #cs{
-    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(./res/background.jpg);
     padding: 3rem;
-    background-size: cover;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: top;
 }
 
 #cs p{
@@ -162,6 +184,10 @@ button{
 button i:hover{
   color: orange;
   transform: scale(1.2);
+}
+
+iframe{
+  display: inline;
 }
 
 @media (max-width: 1140px) {
