@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 #home{
-    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(/res/background.png);
+    /* background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(/res/background.png);
     background-attachment: fixed;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     height: 100vh;
     position: relative;
     z-index: -1;
@@ -37,9 +37,9 @@
 }
 
 @media (max-width: 1024px){
-    #home{
-        height: 1000px;
-    }
+    /* #home{
+        height: 800px;
+    } */
     #about{
         padding-left: 2rem;
         top: 10rem;

@@ -6,3 +6,13 @@
     font-family: "Montserrat", sans-serif;
     color: whitesmoke;
 }
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(/res/background.png);
+    /* background-attachment: fixed;
+    background-size: ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    z-index: -1; */
+}
