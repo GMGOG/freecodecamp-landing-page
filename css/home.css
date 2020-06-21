@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 #home{
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(/res/background.png);
+    background-size: cover;
     position: relative;
     z-index: 0;
     height: 800px;
