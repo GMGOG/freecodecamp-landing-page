@@ -4,5 +4,12 @@ section{
 }
 
 section img{
+    margin-bottom: 3rem;
     width: 80vw;
+}
+
+section iframe{
+    width: 80%;
+    height: 15rem;
+    margin-bottom: 4rem;
 }
