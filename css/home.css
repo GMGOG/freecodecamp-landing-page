@@ -13,12 +13,12 @@
     position: relative;
     padding: 3rem;
     top: 14rem;
+    width: 45%;
 }
 
 #about p{
     position: relative;
     color: azure;
-    width: 45%;
     /* top: 16rem; */
     font-size: larger;
     font-weight: 100;
@@ -32,4 +32,17 @@
     display: block;
     font-size: 3rem;
     margin-bottom: 10px;
+}
+
+@media (max-width: 1024px){
+    #about{
+        top: 4rem;
+        width: 100%;
+    }
+    #about span{
+        font-size: 2rem;
+    }
+    #about p{
+        font-size: medium;
+    }
 }
