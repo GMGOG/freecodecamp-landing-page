@@ -10,6 +10,7 @@ header {
   width: 100%;
   background-color: black;
   padding: 0rem 4rem;
+  z-index: 251;
 }
 
 /* Arrow Icon as Label for selectBox */
