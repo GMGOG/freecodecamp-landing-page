@@ -2,12 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 #home{
-    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(/res/background.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: calc(100vh - 1.5rem);
     position: relative;
-    z-index: -1;
+    z-index: 0;
+    height: 100vh;
   }
 
 #about{
@@ -18,9 +15,7 @@
 }
 
 #about p{
-    position: relative;
     color: azure;
-    /* top: 16rem; */
     font-size: larger;
     font-weight: 100;
     text-align: justify;
@@ -36,9 +31,6 @@
 }
 
 @media (max-width: 1024px){
-    /* #home{
-        height: 800px;
-    } */
     #about{
         padding-left: 2rem;
         top: 10rem;

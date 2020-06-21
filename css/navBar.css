@@ -10,7 +10,7 @@ header {
   width: 100%;
   background-color: black;
   padding: 0rem 4rem;
-  z-index: 251;
+  z-index: 20;
 }
 
 /* Arrow Icon as Label for selectBox */
@@ -50,7 +50,7 @@ header nav a {
 }
 
 /* Hover state of nav link of navbar */
-header nav a:hover {
+header nav a:hover{
   color: rgb(243, 187, 84);
 }
 
