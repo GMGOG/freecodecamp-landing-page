@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/navBar.css" />
     <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/join.css">
     <script
       src="https://kit.fontawesome.com/0b362ee348.js"
       crossorigin="anonymous"
@@ -21,11 +23,12 @@
       <a href="#"><img id="header-img" src="./res/logo.png" alt="car logo"></a>
       <!-- Input Select Box -->
       <input type="checkbox" id="nav-bar-selectBox">
+      <!-- Label for selectBox as Arrow -->
       <label for="nav-bar-selectBox">
         <i class="fas fa-arrow-right"></i>
       </label>
       <nav id="nav-bar">
-        <a class="nav-link" href="#bg-1">Home</a>
+        <a class="nav-link" href="#home">Home</a>
         <a class="nav-link" href="#features">Features</a>
         <a class="nav-link" href="#why-us">Why Us?</a>
         <a class="nav-link" href="#contact">Contact</a>
@@ -34,8 +37,8 @@
       </nav>
     </header>
     <!-- Header End -->
-    <!-- <div id="bg-1">
-      <div id="cs">
+     <div id="home">
+      <div id="about">
         <p>
           <span>STIFF NECK</span> is a cloud computing service on which you can
           host your own game servers that runs on highly optimized super
@@ -47,7 +50,7 @@
           <input type="checkbox" name="form" id="join" value="join" />
           <form>
             <input
-              class="button"
+            class="button"
               id="form"
               type="email"
               name="email"
@@ -58,7 +61,7 @@
         </div>
       </div>
     </div>
-    <section id="features">
+    <!-- <section id="features">
       <img src="./res/warzone.png" alt="" />
       <iframe
         width="856"

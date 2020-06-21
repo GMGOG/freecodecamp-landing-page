@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+#home{
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(/res/background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+  }
+
+#about{
+    position: relative;
+    padding: 3rem;
+    top: 14rem;
+}
+
+#about p{
+    position: relative;
+    color: azure;
+    width: 45%;
+    /* top: 16rem; */
+    font-size: larger;
+    font-weight: 100;
+    text-align: justify;
+    line-height: 1.7;
+}
+
+#about p span{
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    display: block;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
