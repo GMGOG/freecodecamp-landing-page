@@ -7,6 +7,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh; 
+    position: absolute;
+    z-index: -1;
   }
 
 #about{
@@ -38,6 +40,7 @@
     #about{
         top: 4rem;
         width: 100%;
+        z-index: 0;
     }
     #about span{
         font-size: 2rem;
