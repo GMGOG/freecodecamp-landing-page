@@ -38,6 +38,7 @@
 
 @media (max-width: 1024px){
     #about{
+        padding-left: 2rem;
         top: 10rem;
         width: 100%;
     }
