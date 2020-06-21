@@ -38,14 +38,14 @@
 
 @media (max-width: 1024px){
     #about{
-        top: 4rem;
+        top: 10rem;
         width: 100%;
-        z-index: 0;
     }
     #about span{
         font-size: 2rem;
     }
     #about p{
         font-size: medium;
+        width: 100%;
     }
 }
