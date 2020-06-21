@@ -134,7 +134,7 @@ iframe{
   display: inline;
 }
 
-@media (max-width: 1140px) {
+@media (max-width: 1140px) {}
   #cs{
     margin-top: 0;
     height: 100vh;
