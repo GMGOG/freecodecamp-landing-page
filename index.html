@@ -1,70 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- Head -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/0b362ee348.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/navBar.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/0b362ee348.js"
+      crossorigin="anonymous"
+    ></script>
     <title>freecodecamp - Product landing page</title>
   </head>
+  <!-- Head End -->
+  <!-- Body Start -->
   <body>
-    <div id="page-wraper">
-<!-- User Story #1: My product landing page should have a header element with a corresponding id="header". -->
-<header id="header">
-  <!-- User Story #2: I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here. -->
-    <img id="header-img" src="./res/logo.png" alt="car logo" />
-    <h2></h2>
-  <!-- User Story #3: Within the #header element I can see a nav element with a corresponding id="nav-bar". -->
-  <input type="checkbox" name="nav" id="nav-menu">
-  <label id="arrow" for="nav-menu"><i class="fas fa-arrow-right"></i></label>
-  <nav id="nav-bar">
-    <!-- User Story #4: I can see at least three clickable elements inside the nav element, each with the class nav-link. -->
-      <!-- User Story #5: When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page. -->
-      <a class="nav-link" href="#home">Home</a>
-      <a class="nav-link" href="#features">Features</a>
-      <a class="nav-link" href="#why-us">Why Us?</a>
-      <a class="nav-link" href="#contact">Contact</a>
-      <a class="nav-link" href="#donate">Donate</a>
-      <a class="nav-link" href="#log-in">Login</a>
-  </nav>
-  <div id="menu"></div>
-</header>
-
-<!-- User Story #6: I can watch an embedded product video with id="video". -->
-
-<!-- User Story #7: My landing page has a form element with a corresponding id="form". -->
-<!-- User Story #8: Within the form, there is an input field with id="email" where I can enter an email address. -->
-<div id="bg-1">
-  <div id="cs">
-    <p><span>STIFF NECK</span> is a cloud computing service on which you can host your own game servers that runs on highly optimized super computers to provide you best gaming experience without any latency  with simple easy steps and allow your friends to join.</p>
-    <div class="button">
-      <label for="join" class="join">Join</label>
-      <input type="checkbox" name="form" id="join" value="join">
-      <form>
-        
-<!-- User Story #9: The #email input field should have placeholder text to let the user know what the field is for. -->
-<!-- User Story #10: The #email input field uses HTML5 validation to confirm that the entered text is an email address. -->
-      <input class="button" id="form" type="email" name="email" placeholder="Enter your E-mail">
-<!-- User Story #11: Within the form, there is a submit input with a corresponding id="submit". -->
-<!-- User Story #12: When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit). -->
-      <button type="submit"><i class="fas fa-arrow-right"></i></button>
-    </form>
+    <!-- Header Start -->
+    <header id="header">
+      <!-- Logo Image -->
+      <a href="#"><img id="header-img" src="./res/logo.png" alt="car logo"></a>
+      <!-- Input Select Box -->
+      <input type="checkbox" id="nav-bar-selectBox">
+      <label for="nav-bar-selectBox">
+        <i class="fas fa-arrow-right"></i>
+      </label>
+      <nav id="nav-bar">
+        <a class="nav-link" href="#bg-1">Home</a>
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#why-us">Why Us?</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        <a class="nav-link" href="#donate">Donate</a>
+        <a class="nav-link" href="#log-in">Login</a>
+      </nav>
+    </header>
+    <!-- Header End -->
+    <div id="bg-1">
+      <div id="cs">
+        <p>
+          <span>STIFF NECK</span> is a cloud computing service on which you can
+          host your own game servers that runs on highly optimized super
+          computers to provide you best gaming experience without any latency
+          with simple easy steps and allow your friends to join.
+        </p>
+        <div class="button">
+          <label for="join" class="join">Join</label>
+          <input type="checkbox" name="form" id="join" value="join" />
+          <form>
+            <input
+              class="button"
+              id="form"
+              type="email"
+              name="email"
+              placeholder="Enter your E-mail"
+            />
+            <button type="submit"><i class="fas fa-arrow-right"></i></button>
+          </form>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-
-<section>
-  <img src="./res/warzone.png" alt="">
-  <iframe width="856" height="438" src="https://www.youtube.com/embed/0E44DClsX5Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</section>
-      
-<!-- User Story #13: The navbar should always be at the top of the viewport. -->
-
-<!-- User Story #14: My product landing page should have at least one media query. -->
-
-<!-- User Story #15: My product landing page should utilize CSS flexbox at least once. -->
-</body>
+    <section id="features">
+      <img src="./res/warzone.png" alt="" />
+      <iframe
+        width="856"
+        height="438"
+        src="https://www.youtube.com/embed/0E44DClsX5Q"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <section class="why-us">
+      <h1>For best multiplayer gaming appearence</h1>
+    </section>
+  </body>
+  <!-- Body End -->
 </html>
-
-    </div>
-    

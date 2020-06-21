@@ -1,56 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
-  color: whitesmoke;
-}
-
-#header {
-  display: flex;
-  position: fixed;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  height: 5rem;
-  width: 100%;
-  background-color: black;
-  padding: 0rem 4rem;
-}
-
-#header-img {
-  height: 4rem;
-  margin-right: auto;
-}
-
-#nav-bar {
-  float: right;
-  margin-left: auto;
-}
-
-input[type="checkbox" i] {
-  display: none;
-}
-
-#arrow {
-  display: none;
-}
-
-.nav-link {
-  margin: 1rem;
-  text-decoration: none;
-  text-align: center;
-  color: white;
-  font-size: 1.2rem;
-}
-
-.nav-link:hover {
-  color: rgb(243, 187, 84);
-}
-
 #bg-1{
   background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(./res/background.jpg);
   background-attachment: fixed;
@@ -67,12 +17,6 @@ section{
   height: 100vh;
   padding-left: 3rem;
 }
-
-section img{
-  padding-left: 6rem;
-  padding-bottom: 1.5rem;
-}
-
 
 iframe{
   border: 2px beige solid;
@@ -191,53 +135,6 @@ iframe{
 }
 
 @media (max-width: 1140px) {
-  #header {
-    padding: 0rem 1rem;
-    height: 4rem;
-  }
-  #arrow{
-    display: block;
-    font-weight: 300;
-    color: white;
-    font-size: 2rem;
-    margin-left: auto;
-    transition: all 0.4s;
-  }
-
-  #header-img {
-    height: 3rem;
-  }
-
-  #nav-bar {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    top: 4rem;
-    background-color: black;
-    height: 100vh;
-    width: 100%;
-    right: 100%;
-    padding-top: 2rem;
-    padding-bottom: 15rem;
-    transition: all 0.4s;
-  }
-
-  .nav-link {
-    display: block;
-    text-align: center;
-    margin-bottom: auto;
-    margin-top: auto;
-  }
-
-  input:checked ~ #nav-bar {
-    right: 0;
-  }
-
-  input:checked ~ label {
-    transform: rotate(180deg);
-  }
-
   #cs{
     margin-top: 0;
     height: 100vh;
@@ -271,5 +168,10 @@ iframe{
 
   #form::placeholder{
     font-size: 0.8rem;
+  }
+
+  #features{
+    display: inline;
+    padding-top: 10px;
   }
 }
