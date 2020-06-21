@@ -1,6 +1,11 @@
 section{
     text-align: center;
     background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(./res/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 section img{
